@@ -156,8 +156,25 @@ button:disabled {
         font-size: 50px;
     }
 }
+
+@media screen and (max-width: 445px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+    .container__campo {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    .container__informacoes {
+        padding: 2rem;
+    }
+    .container__texto {
+        margin: 8px 0;}
+}
+
 @keyframes piscarNumero {
     0%, 100% { opacity: 1; transform: scale(1); }
     50% { opacity: 0.3; transform: scale(1.2); }
 }
-
