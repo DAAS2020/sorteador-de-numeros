@@ -158,6 +158,10 @@ button:disabled {
 }
 
 @media screen and (max-width: 445px) {
+    h1 {
+        font-size: 50px;
+        padding: 1.5rem;
+    }
     .container {
         flex-direction: column;
         height: auto;
@@ -168,7 +172,7 @@ button:disabled {
         gap: 1rem;
     }
     .container__informacoes {
-        padding: 2rem;
+        padding: 1rem;
     }
     .container__texto {
         margin: 8px 0;}
